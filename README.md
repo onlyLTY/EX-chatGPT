@@ -86,7 +86,7 @@ ChatGPT 是一个强大的工具平台，可以无需任何调整就生成 API �
    ```bash
    docker run -dit \
      -v ~/config1:/config \
-     -p 5001:5000 \
+     -p 5000:5000 \
      --name exchatgpt1 \
      --restart unless-stopped \
     0nlylty/exchatgpt:latest
